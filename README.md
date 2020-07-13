@@ -30,11 +30,15 @@ These instructions will get you a copy of the project up and running on your loc
     java Menu.java
 
 ## Features
-* Find maximum possible flow from source to sink.
+* Input flow matrix through keyboard.
+* Read flow matrix from file.
+* Display flow matrix.
+* Calculate maximum possible flow from source to sink.
 * Display flow of each path.
-* Add a new node to the network.
-* Delete a node from the network.
-* 
+* Add a new edge to the network.
+* Delete a edge from the network.
+* Change capacity of an existing edge.
+* Recalculate maximum possible flow after any changes.
 
 ## Screenshots
 Input & Output
