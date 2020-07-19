@@ -97,7 +97,7 @@ public class Menu {
      */
     public int[][] readFromFile(int[][] matrix) throws FileNotFoundException {
         // Read from the text file
-        Scanner sc = new Scanner(new BufferedReader(new FileReader("src/Graph6.txt")));
+        Scanner sc = new Scanner(new BufferedReader(new FileReader("src/Graph02.txt")));
         while (sc.hasNextLine()) {
             for (int i = 0; i < matrix.length; i++) {
                 String[] line = sc.nextLine().trim().split(" "); // Separate by spaces
