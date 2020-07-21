@@ -19,11 +19,11 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Installation
 
-#### Clone Repository:
+#### Clone Repository :
   
     git clone https://github.com/shiromi-basil/max-flow-network.git
 
-#### To run the application from the console:
+#### To run the application from the console :
 
     cd src/
     javac Menu.java
@@ -31,7 +31,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Features
 * Input flow matrix through keyboard.
-* Read flow matrix from file.
+* Read flow matrix from file (change file name in src/Menu.java).
 * Display flow matrix.
 * Calculate maximum possible flow from source to sink.
 * Display flow of each path.
@@ -41,7 +41,15 @@ These instructions will get you a copy of the project up and running on your loc
 * Recalculate maximum possible flow after any changes.
 
 ## Screenshots
-Input & Output
+#### Input through keyboard :
+<img alt="Screenshot 01" src="demo/screenshot-keyboard-01.png" width="700">
+
+<img alt="Screenshot 02" src="demo/screenshot-keyboard-02.png" width="700">
+
+#### Input through file :
+<img alt="Screenshot 03" src="demo/screenshot-file-01.png" width="700">
+
+<img alt="Screenshot 04" src="demo/screenshot-file-02.png" width="700">
 
 ## Built With
 * [Java](https://docs.oracle.com/en/java/)
